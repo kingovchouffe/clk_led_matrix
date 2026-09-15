@@ -3667,6 +3667,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4925,16 +5048,16 @@
 		(uuid "4abf9d45-d06d-497e-855e-019eda3eb923")
 	)
 	(junction
-		(at 30.48 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50ff5d8b-796e-4ec2-8867-88c1479cb108")
-	)
-	(junction
 		(at 144.78 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "559d218b-9400-4f37-8fae-f435e2b3d22a")
+	)
+	(junction
+		(at 120.65 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "57c2bc81-8f66-418d-ab3c-862592dd4b2e")
 	)
 	(junction
 		(at 121.92 81.28)
@@ -4947,6 +5070,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68a22a95-ea19-490c-90f6-ca749088aee8")
+	)
+	(junction
+		(at 110.49 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7875c40a-a051-4089-89cb-72a91631e8cd")
 	)
 	(junction
 		(at 44.45 148.59)
@@ -5009,6 +5138,12 @@
 		(uuid "c543bd33-a7fb-4e0c-b0b9-ffc0bdcfd292")
 	)
 	(junction
+		(at 115.57 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c64626fa-0689-4724-b443-7e001c0161bd")
+	)
+	(junction
 		(at 73.66 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5031,6 +5166,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd61f537-2404-4af6-8c6a-45eed3c31da1")
+	)
+	(junction
+		(at 30.48 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9c6f9b7-153c-45e9-b2d2-e64b22c291e5")
 	)
 	(junction
 		(at 86.36 95.25)
@@ -5284,6 +5425,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 66.04) (xy 30.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16a5ca47-6d30-4e79-a6e6-eb3595d08f97")
+	)
+	(wire
+		(pts
 			(xy 173.99 119.38) (xy 175.26 119.38)
 		)
 		(stroke
@@ -5301,6 +5452,16 @@
 			(type default)
 		)
 		(uuid "195a2fe8-881c-4f34-9415-560a14df4ad9")
+	)
+	(wire
+		(pts
+			(xy 125.73 179.07) (xy 125.73 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198329af-3c0b-4bc0-bccd-c3661a433aad")
 	)
 	(wire
 		(pts
@@ -5654,6 +5815,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 179.07) (xy 110.49 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53f51abc-24ef-43a5-95ec-6047f06466c4")
+	)
+	(wire
+		(pts
 			(xy 254 154.94) (xy 256.54 154.94)
 		)
 		(stroke
@@ -5701,6 +5872,16 @@
 			(type default)
 		)
 		(uuid "5acb926e-2a87-4324-a602-003fe71c4843")
+	)
+	(wire
+		(pts
+			(xy 120.65 179.07) (xy 125.73 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b46a115-55c2-4d0e-ad3d-da23846220e3")
 	)
 	(wire
 		(pts
@@ -5964,6 +6145,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 63.5) (xy 22.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78561df8-ddf3-46bb-8cd9-778bb657f804")
+	)
+	(wire
+		(pts
 			(xy 73.66 35.56) (xy 87.63 35.56)
 		)
 		(stroke
@@ -6164,7 +6355,17 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 63.5) (xy 30.48 67.31)
+			(xy 115.57 179.07) (xy 120.65 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98a66d46-1caf-4b3a-abce-1cdebdff4ce5")
+	)
+	(wire
+		(pts
+			(xy 30.48 63.5) (xy 30.48 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6221,6 +6422,16 @@
 			(type default)
 		)
 		(uuid "a13bd787-1e83-4bb7-9139-5457052a9895")
+	)
+	(wire
+		(pts
+			(xy 110.49 179.07) (xy 115.57 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a340320f-1e3e-49fd-afd3-cbc08725cf32")
 	)
 	(wire
 		(pts
@@ -6331,16 +6542,6 @@
 			(type default)
 		)
 		(uuid "b226945b-0ca3-4bd4-8b39-f288dca0eaf1")
-	)
-	(wire
-		(pts
-			(xy 30.48 68.58) (xy 30.48 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b279f049-fdef-4c4a-aca9-84c73072149b")
 	)
 	(wire
 		(pts
@@ -6554,6 +6755,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 179.07) (xy 115.57 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce3c6d12-e32f-4322-a713-3518ccbcf76b")
+	)
+	(wire
+		(pts
 			(xy 30.48 128.27) (xy 73.66 128.27)
 		)
 		(stroke
@@ -6631,6 +6842,16 @@
 			(type default)
 		)
 		(uuid "d3de29c0-4837-4c5a-9627-8948259d81da")
+	)
+	(wire
+		(pts
+			(xy 110.49 179.07) (xy 110.49 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d51822e3-2685-427f-85c0-9f5a058cbbdd")
 	)
 	(wire
 		(pts
@@ -6784,6 +7005,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 179.07) (xy 120.65 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec4634ac-e5e1-47a5-bc6a-deecf6cf0155")
+	)
+	(wire
+		(pts
 			(xy 44.45 138.43) (xy 44.45 139.7)
 		)
 		(stroke
@@ -6914,16 +7145,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 67.31) (xy 22.86 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa2732ec-27da-4b17-90be-1361073e8ebb")
-	)
-	(wire
-		(pts
 			(xy 71.12 138.43) (xy 73.66 138.43)
 		)
 		(stroke
@@ -6961,6 +7182,16 @@
 			(type default)
 		)
 		(uuid "fdd3305e-89b9-49a7-8780-a56d35834872")
+	)
+	(wire
+		(pts
+			(xy 30.48 66.04) (xy 30.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec0bf9e-74ef-414d-aff4-a29857069241")
 	)
 	(label "XOUT"
 		(at 184.15 111.76 0)
@@ -9742,6 +9973,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 120.65 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5789e22e-7ebe-4a72-b6e3-cc37983dfe7f")
+		(property "Reference" "H3"
+			(at 119.38 170.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 123.19 175.2599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 120.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 120.65 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84bfb3b4-fdc3-4ad1-b59e-5a94f626dada")
+		)
+		(instances
+			(project "clk_led_matrix"
+				(path "/41bf408e-b75d-4d4e-9c4f-8dd8be7ab150"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 151.13 36.83 90)
 		(unit 1)
@@ -11436,6 +11746,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 110.49 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8948a15f-7806-4e69-9d2d-381a3bc0c311")
+		(property "Reference" "H1"
+			(at 109.22 170.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 113.03 175.2599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 110.49 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 110.49 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cac5ad07-4eba-4f93-a848-fca638970803")
+		)
+		(instances
+			(project "clk_led_matrix"
+				(path "/41bf408e-b75d-4d4e-9c4f-8dd8be7ab150"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 120.65 96.52 270)
 		(unit 1)
@@ -11915,85 +12304,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 26.67 67.31 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "a39e7007-2891-4cac-bf2a-0bf4b3537dbe")
-		(property "Reference" "R3"
-			(at 26.67 65.278 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 26.67 67.31 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 26.67 69.088 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 26.67 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "9a400349-bbb4-490b-88ee-923deb1114a9")
-		)
-		(pin "1"
-			(uuid "28e77e94-024e-4401-8d73-1ce8956da22f")
-		)
-		(instances
-			(project "clk_led_matrix"
-				(path "/41bf408e-b75d-4d4e-9c4f-8dd8be7ab150"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "DCF77_Horloge-rescue:+3.3V-power")
 		(at 241.3 128.27 0)
 		(unit 1)
@@ -12234,6 +12544,85 @@
 			(project "clk_led_matrix"
 				(path "/41bf408e-b75d-4d4e-9c4f-8dd8be7ab150"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 115.57 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af7a3ec3-413d-4a02-92aa-012bfea162aa")
+		(property "Reference" "H2"
+			(at 114.3 170.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 118.11 175.2599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 115.57 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 115.57 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf279aff-3485-4d19-88ce-ffea744f77c4")
+		)
+		(instances
+			(project "clk_led_matrix"
+				(path "/41bf408e-b75d-4d4e-9c4f-8dd8be7ab150"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -14187,6 +14576,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 110.49 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6084dd1-3f71-4682-ad68-5ba8527f5002")
+		(property "Reference" "#PWR040"
+			(at 110.49 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.49 184.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93e7131e-e64c-49a0-9784-d0b85886cfa1")
+		)
+		(instances
+			(project "clk_led_matrix"
+				(path "/41bf408e-b75d-4d4e-9c4f-8dd8be7ab150"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MCU_ST_STM32C0:STM32C071KBUx")
 		(at 199.39 121.92 0)
 		(unit 1)
@@ -15112,7 +15578,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4115-03-C"
+		(property "Footprint" "easyeda2kicad:USB-C-TH_SHOUHAN_TYPE-C-14PLC-H10.0"
 			(at 34.29 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -15362,6 +15828,85 @@
 			(project "clk_led_matrix"
 				(path "/41bf408e-b75d-4d4e-9c4f-8dd8be7ab150"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 125.73 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f86b26e6-3217-4de6-bcac-37dbc62be08c")
+		(property "Reference" "H4"
+			(at 124.46 170.942 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 128.27 175.2599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 125.73 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 125.73 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30a2fb70-fa22-4b7f-8072-f3fe415d999a")
+		)
+		(instances
+			(project "clk_led_matrix"
+				(path "/41bf408e-b75d-4d4e-9c4f-8dd8be7ab150"
+					(reference "H4")
 					(unit 1)
 				)
 			)
